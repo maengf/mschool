@@ -1,0 +1,300 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 800;
+    float: left;
+    color: #7A316F;
+    margin-left: -58px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #D8D9DA;
+    z-index: 1;
+    border-bottom: 1px solid #D8D9DA;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7A316F;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #7A316F;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #4682A9;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #F11A7B;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: larger;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.guru-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-guru {
+    width: 17%;
+    margin: 0 auto;
+}
+
+.kartu-guru img {
+    width: 100%;
+    border-radius: 69%;
+    height: 48%;
+}
+
+.kartu-guru p {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #4682A9;
+}
+
+.fasilitas-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.daftar-fasilitas {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.daftar-fasilitas img {
+    width: 100%;
+    border-radius: 9%;
+    height: 64%;
+}
+
+.daftar-fasilitas p {
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    color: #4682A9;
+}
+
+.kegiatan-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.daftar-kegiatan {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.daftar-kegiatan img {
+    width: 100%;
+    border-radius: 9%;
+    height: 64%;
+}
+
+.daftar-kegiatan p {
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    color: #4682A9;
+}
+
+.footer {
+    display: flex;
+    background-color: #D8D9DA;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+.footercapt {
+    padding-left: 30px;
+    font-size: large;
+    font-weight: 100;
+    color: #7A316F;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kolom {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .kolom .deskripsi {
+        font-size: 20px;
+        font-weight: bold;
+        color: #7A316F;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        color: #7A316F;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    p{
+        font-size: small;
+    }
+
+    .kartu-guru {
+        width: 20%;
+        height: auto;
+    }
+
+    .kartu-guru p {
+        font-size: 14px;
+    }
+
+    .daftar-fasilitas img {
+        width: 98%;
+        height: 64%;
+    }
+
+    .daftar-fasilitas p{
+        font-size: 14px;
+    }
+
+    .daftar-kegiatan img {
+        width: 98%;
+        height: 64%;
+    }
+
+    .daftar-kegiatan p{
+        font-size: 14px;
+    }
+
+    .footercapt {
+        font-size: smaller;
+    }
+}
